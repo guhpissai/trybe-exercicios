@@ -2,6 +2,7 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 10%;
+    font-size: 12px;
 }
 
 th, td {
@@ -10,11 +11,13 @@ th, td {
     padding: 8px;
 }
 
-.table-edit {
-    display: inline-block;  
+.edit-inline {
+    display: inline-block; 
+    width: 80%;
+    /* border: #ee0000 solid; */
 }
 
-.inline-block {
-    display: inline-block;
-    width: 60%;
+.edit-table {
+    float: right;
+    margin-right: 100px;
 }
