@@ -1,5 +1,18 @@
 body {
-    background-color: #3c9c80;
+    background-color: #eeeeee;
+}
+
+#header {
+    background-image: url(https://static.scientificamerican.com/sciam/cache/file/AA7DC3E5-E269-47D8-A2A089BE331C8DBC_source.jpg);
+    background-position: 10% 20%;
+    background-size: cover;
+    height: 400px;
+    z-index: 2;
+}
+
+.nav-links li {
+    display: inline-block;
+    z-index: 1;
 }
 
 table {
@@ -33,4 +46,8 @@ th, td {
     padding: 60px;
     border: #ac0000 solid;
     
+}
+
+.image-header {
+    background-image:
 }
