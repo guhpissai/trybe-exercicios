@@ -6,6 +6,7 @@ body {
 
 #header {
     margin: auto;
+
     background-image: url(https://static.scientificamerican.com/sciam/cache/file/AA7DC3E5-E269-47D8-A2A089BE331C8DBC_source.jpg);
     background-position: 10% 20%;
     background-size: cover;
@@ -71,4 +72,8 @@ th, td {
 
 .imagem-mantis {
     width: 100%;
+}
+
+image {
+    
 }
