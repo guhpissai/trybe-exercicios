@@ -1,3 +1,7 @@
+body {
+    background-color: #3c9c80;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -11,13 +15,22 @@ th, td {
     padding: 8px;
 }
 
-.edit-inline {
-    display: inline-block; 
-    width: 80%;
-    /* border: #ee0000 solid; */
-}
-
 .edit-table {
     float: right;
     margin-right: 100px;
+}
+ 
+.eyes-image {
+    width: 400px;
+
+}
+
+.article-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 60px;
+    border: #ac0000 solid;
+    
 }
