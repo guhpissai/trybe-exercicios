@@ -42,6 +42,29 @@
       </section>
     </main>
     <script>
+      // Exercicio 1
+
+      const changeText = (tag) => {
+        document.getElementsByTagName(tag)[1].innerText = "xablau";
+     }
+     changeText('p');
+
+     // Exercicio 2
+
+     const changeColor = (myclass) => {
+      console.log(myclass)
+      document.getElementsByClassName(myclass)[0].style.backgroundColor = 'green';
+     }
+     changeColor('main-content');
+
+     // Exercicio 3
+
+     const changeRedColor = () => {
+      let changeColorRed = document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
+     }
+     changeRedColor();
+
+
         /*
       Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
       - document.getElementById()
