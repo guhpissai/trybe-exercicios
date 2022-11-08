@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrybeTrip</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">TrybeTrip</h1>
+  </header>
+  <form action="" method="get">
+    <section>
+      <label for="user-name">Nome Completo:</label>
+      <input type="text" name="name" id="user-name" class="space-input" minlength="10" maxlength="40" autocomplete="off">
+    </section>
+    <section>
+      <label for="user-email">E-mail:</label>
+      <input type="email" name="email" id="user-email" class="space-input" minlength="10" maxlength="50" autocomplete="off">
+    </section>
+    <section>
+      <h3 id="destiny">Destino preferido:</h3>
+      <label for="prefer-destiny1">
+        <input type="radio" name="destino" id="prefer-destiny1" value="cidade">Cidade
+      </label>
+      <label for="prefer-destiny2">
+        <input type="radio" name="destino" id="prefer-destiny2" value="campo">Campo
+      </label>
+      <label for="prefer-destiny3">
+        <input type="radio" name="destino" id="prefer-destiny3" value="praia">Praia
+        </label>
+        <label for="prefer-destiny4">
+        <input type="radio" name="destino" id="prefer-destiny4" value="montanhas">Montanhas
+      </label>
+    </section>
+    <section>
+      <h3>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h3>
+      <label for="">
+        <textarea name="" id="why-you" cols="79" rows="10" maxlength="500"></textarea>
+      </label>
+    </section>
+    <section>
+      <label for="trip-date">Data:
+        <input type="date" name="date" id="trip-date">
+      </label>
+    </section>
+    <section>
+      <label for="oportunitys">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+        <input type="checkbox" name="oportunitys" id="oportunitys">
+      </label>
+    </section>
+    <section>
+      <label for="agree-to">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+        <input type="checkbox" name="agree-to" id="agree">
+      </label>
+    </section>
+    <button type="submit" id="submit-button" disabled>Enviar</button>
+    <button type="reset">Limpar</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
