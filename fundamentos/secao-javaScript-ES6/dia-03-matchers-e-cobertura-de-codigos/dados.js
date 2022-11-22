@@ -40,7 +40,19 @@ const professionalBoard = [
 
 // Pesquisa
 const searchEmployee = (id, detail) => {
-  for (const property in professionalBoard) {
-    console.log(property);
+  let employee = '';
+  
+  for (let index = 0; index < professionalBoard.length; index += 1) {
+    const currentEmployee = professionalBoard[index];
+
+    if (id === currentEmployee.id) {
+      employee = currentEmployee;
+    }
+
+    if (!employee) {
+      throw new Error("ID nao identificado")
+    }
   }
 };
+
+module.exports = searchEmployee;
