@@ -9,5 +9,8 @@ describe('Testa a funcao printMessage', () => {
   });
   it('Espera que a resposta tenha o nome correto do persongagem', () => {
     expect(printMessage(info)).toMatch(/Margarida/);
-  })
+  });
+  it('Espera que seja lancado um erro', () => {
+    expect(() => {printMessage(desinfo)}).toThrow(Error);
+  });
 });
